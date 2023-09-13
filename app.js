@@ -1,7 +1,7 @@
 
 const readline = require('readline');
 
-const {generateMeta} = require('.controllers//openaicontroller')
+const {generateMeta} = require('./controllers/openaiController')
 
 
 const rl = readline.createInterface({
