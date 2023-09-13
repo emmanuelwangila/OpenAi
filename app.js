@@ -1,6 +1,8 @@
 
 const readline = require('readline');
 
+const {generateMeta} = require('.controllers//openaicontroller')
+
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -8,4 +10,4 @@ const rl = readline.createInterface({
 })
 
 
-rl.question('Youtube video title\n ', (title) => console.log(title));
+rl.question('Youtube video title\n ', generateMeta);
